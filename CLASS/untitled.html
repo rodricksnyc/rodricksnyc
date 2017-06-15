@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<style>
+body {
+  font-family: chalkduster;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #c8c;
+}
+div {
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 10px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: black;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 20px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 70px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://imgur.com/EfCFbvN.jpg");
+}
+.second{
+  background-image: url("http://imgur.com/wCtFQCE.jpg");
+}
+.third{
+  background-image: url("http://imgur.com/OCzLuPH.jpg");
+}
+.type {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Elizabeth's Photography</h1>
+<h2>a New York Photographer</h2>
+<div class="first">
+  <p>New York<span class="type">Skyline</span><br />
+  <small>Picture of Midtown East from Gantry State Park in Long Island City, Queens.</small></p>
+</div>
+
+<div class="second">
+  <p>Boston <span class="type">Skyline</span><br />
+  <small>Picture of Boston Seaport from Fan Pier in Boston.</small></p>
+</div>
+  
+<div class="third">
+  <p>Chicago <span class="type">Skyline</span><br />
+  <small>Picture of John Hancock Tower from North Avenue Beach in Chicago.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<head>
+<style>
+
+div {
+  height: 150px;
+  width: 300px;
+  margin: 0 auto;
+} 
+.beep {
+  width: 5px;
+  height: 0;
+  border: 5px solid transparent;
+  border-top: 10px solid #777;
+  border-bottom: 80px solid #888;
+}  
+.brain {
+  background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background-size: 75px 150px;
+  height: 150px;
+  width: 150px;
+  border-radius: 60px 60px 10px 10px;
+  border-bottom: 40px double #666;
+}
+.torso {
+  height: 0;
+  width: 140px;
+  border-top: 300px solid #bc6;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-radius: 20px 20px 100px 100px;
+}  
+  
+.foot {
+  height: 40px;
+  width: 40px;
+  background: #ccc;
+  border-radius: 40px;
+  border: 15px solid #999;
+}  
+
+</style>
+</head>
+
+<body>
+<div class="beep"></div>
+<div class="brain"></div>
+<div class="torso"></div>
+<div class="foot"></div>
+</body>
+
+
+
+
+
+<!DOCTYPE html>
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<script src="/assets/jquery.js"></script>
+<style>
+body {
+  text-align: center;
+  font-family: 'Fjalla One';
+  font-size: 20px;
+  background: #e6eaf0;
+}  
+button {
+  margin: 40px;
+}
+input {
+  font-size: 24px;
+}
+.fill {
+  background: white;
+  color: red;
+  border-bottom: 2px black solid;
+  font-family: 'Shadows Into Light';
+  padding: 0 6px;
+  margin: 4px;
+}  
+</style>
+</head>
+
+<body>
+<div class="prompt"></div>
+<button>Next</button>
+<script>
+// List of prompts for the user
+var prompts = [
+  'Type your name',
+  'Type an adjective',
+  'Type a noun'
+   ];
+
+var answers=[];
+// Keep track of current prompt we're on
+var currentPrompt = 0;
+
+// A function that will call the next prompt
+var nextPrompt = function() {
+  //if there's no answer in the form
+  if (currentPrompt != 0){
+    answers.push($('input').val());
+  }
+  // if there is a next prompt
+  if (currentPrompt < prompts.length) {
+    // put first prompt in all html elements with class 
+    $('.prompt').html(prompts[currentPrompt] +'<br><input type="text">');
+    // move the next prompt into variable currentPrompt 
+    currentPrompt = currentPrompt + 1;
+  }
+  //or else if we're at the end of the array
+  else {
+    // put a new message into the html.
+    showFinal();
+  }
+}
+
+//puts user answers into HTML
+var showFinal = function() {
+  $('.prompt').html('This is the story of <span class="fill">'+answers[0]+'</span> and the <span class="fill">'+answers[1]+'</span> <span class="fill">'+answers[2]+'</span>.');
+  // and then hide the button
+  $('button').hide();
+}
+// run nextPrompt function when button is clicked
+$('button').click(function() {
+  nextPrompt();
+});
+
+// Show the first prompt as soon as js loads
+nextPrompt();
+</script>
+
+</body>

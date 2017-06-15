@@ -1,0 +1,34 @@
+.middle-container {
+  align-items: center;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+
+.left-element {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+}
+.center-element {
+  background-color: limegreen;
+  height: 150px;
+  width: 150px;
+}
+.right-element {
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin: 0;
+  color: white;
+}
