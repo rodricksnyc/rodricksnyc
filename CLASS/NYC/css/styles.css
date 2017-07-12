@@ -1,3 +1,7 @@
+.landingbody {
+  max-width: 1200px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -69,6 +73,7 @@ a {
   display:flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1200px;
   font-family: 'Mr De Haviland', cursive;
   font-size: 34px;
 }
@@ -88,15 +93,17 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 80px;
   margin-bottom: 20px;
+  width: 1200px;
+  margin-left: 0px;
 
 }
 .squares {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-family: 'Mr De Haviland', cursive;
+  max-width: 1200px;
 }
 .leftsquare {
   background: url("../img/dilapidated.jpg");
@@ -125,25 +132,15 @@ h2 {
   background-position: center;
   width: 400px;
   height: 400px;
+  margin-left: 10px;
 }
 .manhattanbody {
   background-color: black;
   margin: 15px;
 }
-
-body {
+.othercitiesbody {
+  background-color: black;
   margin: 15px;
-}
-
-h2 {
-  padding-top: 40px;
-}
-
-div {
-  padding-bottom: 10px;
-}
-.dot {
-  color: black;
 }
 .carousel-container, .carousel-item {
   height: 600px;
