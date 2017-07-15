@@ -1,0 +1,1183 @@
+body {
+  max-width: 1300px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  height: 40px;
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  color: black;
+  font-size: 28px;
+  font-weight: 900;
+}
+.links {
+  display: inline;
+  padding-left: 0px;
+  padding-right: 20px;
+  border-right: 1px solid black;
+  color: black;
+}
+a {
+  text-decoration: none;
+  padding-left: 8px;
+  color: black;
+}
+.searchbutton {
+  background-color: white;
+  border-width: 0px;
+}
+.first-photo {
+  align-items: center;
+  background-image: url('../img/first.jpg');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 680px;
+  width: 1300px;
+  margin-top: 25px;
+}
+.first {
+  font-family: 'Mr De Haviland', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:
+  font-weight: 900;
+}
+.first-button{
+  background-image: url('../img/film.png');
+  color: black;
+  font-family: 'Mr De Haviland', cursive;
+  font-weight: 900;
+  width: 200px;
+  height: 183px;
+  font-size: 28px;
+  margin-top: 510px;
+  background-color: white;
+}
+.middle {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 44px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.class2 {
+  color: white;
+  font-size: 40px;
+}
+.class1 {
+  color: black;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+
+}
+.squares {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Mr De Haviland', cursive;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.leftsquare {
+  background: url("../img/dilapidated.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1px;
+  width: 400px;
+  height: 400px;
+  margin-left: 0px;
+}
+
+.middlesquare {
+  background: url("../img/Manhattan.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+}
+.rightsquare {
+  background: url("../img/DC.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+/*Shop PAge*/
+.second-photo {
+  align-items: center;
+  background-image: url('../img/detroit2.jpg');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  width: 1300px;
+  margin-top: 30px;
+}
+.second {
+  font-family: 'Mr De Haviland', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:
+  font-weight: 900;
+}
+.second-button{
+  background-image: url('../img/film.png');
+  color: black;
+  font-family: 'Mr De Haviland', cursive;
+  font-weight: 900;
+  width: 200px;
+  height: 183px;
+  font-size: 28px;
+  margin-top: 820px;
+  margin-right: 1080px;
+  background-color: white;
+}
+.line1 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.line2 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.line3 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.manhattanbody {
+  background-color: black;
+  margin: 15px;
+}
+.othercitiesbody {
+  background-color: black;
+  margin: 15px;
+}
+.favoritesbody {
+  background-color: black;
+  margin: 15px;
+}
+
+body {
+  margin: 15px;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+div {
+  padding-bottom: 10px;
+}
+.dot {
+  color: black;
+}
+.carousel-container, .carousel-item {
+  height: 500px;
+  width: 400px;
+  margin-top: 4px;
+  font-family: 'Mr De Haviland', cursive;
+}
+.carousel-title {
+  color: white;
+  font-size: 46px;
+  font-weight: 400;
+  margin-top: 120px;
+  margin-left: 5px;
+  max-height: 105px;
+  text-align:left;
+  text-transform: capitalize;
+  font-family: 'Mr De Haviland', cursive;
+}
+
+.carousel-byline {
+  color: white;
+  font-size: 20px;
+  margin-top: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Mr De Haviland', cursive;
+}
+/*New York*/
+.carousel-item-01 {
+    background: url(../img/er4.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.carousel-item-1 {
+  background: url(../img/er165.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-0 {
+  background: url(../img/er5.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-00 {
+  background: url(../img/er158.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-2 {
+  background: url(../img/er113.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-3 {
+  background: url(../img/er114.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-4 {
+  background: url(../img/er160.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-5 {
+  background: url(../img/er115.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-6 {
+  background: url(../img/er116.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-7 {
+  background: url(../img/er117.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-8 {
+  background: url(../img/er119.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-9 {
+  background: url(../img/er94.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-10 {
+  background: url(../img/er105.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-11 {
+  background: url(../img/er99.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-12 {
+  background: url(../img/er101.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-13 {
+  background: url(../img/er161.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-14 {
+  background: url(../img/er163.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-15 {
+  background: url(../img/er7.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-16 {
+  background: url(../img/er106.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-17 {
+  background: url(../img/er159.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-18 {
+  background: url(../img/er110.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-19 {
+  background: url(../img/er155.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-20 {
+  background: url(../img/er18.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-21 {
+  background: url(../img/er44.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-22 {
+  background: url(../img/er100.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-23 {
+  background: url(../img/er43.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-24 {
+  background: url(../img/er120.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-25 {
+  background: url(../img/er91.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-26 {
+  background: url(../img/er121.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-27 {
+  background: url(../img/er122.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-28 {
+  background: url(../img/er156.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-29 {
+  background: url(../img/er164.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-30 {
+  background: url(../img/er128.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-31 {
+  background: url(../img/er129.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-32 {
+  background: url(../img/er132.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-33 {
+  background: url(../img/er133.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-34 {
+  background: url(../img/er149.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-35 {
+  background: url(../img/er151.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-36 {
+  background: url(../img/er152.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-37 {
+  background: url(../img/er153.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-38 {
+  background: url(../img/er154.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-39 {
+  background: url(../img/er170.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-40 {
+  background: url(../img/er41.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-41 {
+  background: url(../img/er111.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-42 {
+  background: url(../img/er103.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-43 {
+  background: url(../img/er112.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-44 {
+  background: url(../img/er123.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-45 {
+  background: url(../img/er126.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-46 {
+  background: url(../img/er3.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-47 {
+  background: url(../img/er13.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-48 {
+  background: url(../img/er332.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-49 {
+  background: url(../img/er334.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-50 {
+  background: url(../img/er335.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-51 {
+  background: url(../img/er336.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-52 {
+  background: url(../img/er337.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-53 {
+  background: url(../img/er338.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-54 {
+  background: url(../img/er339.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-55 {
+  background: url(../img/er340.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-56 {
+  background: url(../img/er344.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-57 {
+  background: url(../img/er92.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-58 {
+  background: url(../img/er303.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-59 {
+  background: url(../img/er305.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-60 {
+  background: url(../img/er309.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-61 {
+  background: url(../img/er312.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-62 {
+  background: url(../img/er331.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-63 {
+  background: url(../img/e200.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-64 {
+  background: url(../img/e201.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-65 {
+  background: url(../img/e202.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-66 {
+  background: url(../img/e203.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-67 {
+  background: url(../img/e204.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-68 {
+  background: url(../img/er00.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-69 {
+  background: url(../img/er12.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-70 {
+  background: url(../img/er22.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-71 {
+  background: url(../img/er23.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-72 {
+  background: url(../img/er24.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-73 {
+  background: url(../img/er35.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-74 {
+  background: url(../img/er36.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-75 {
+  background: url(../img/er37.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-76 {
+  background: url(../img/er38.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-77 {
+  background: url(../img/er40.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-78 {
+  background: url(../img/er90.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-79 {
+  background: url(../img/er93.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-80 {
+  background: url(../img/er201.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-81 {
+  background: url(../img/er202.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-82 {
+  background: url(../img/er204.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-83 {
+  background: url(../img/er205.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-84 {
+  background: url(../img/er206.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-85 {
+  background: url(../img/er210.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-86 {
+  background: url(../img/er213.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-87 {
+  background: url(../img/er211.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-88 {
+  background: url(../img/er212.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-89 {
+  background: url(../img/er260.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-90 {
+  background: url(../img/er316.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-91 {
+  background: url(../img/er320.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-92 {
+  background: url(../img/er242.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-93 {
+  background: url(../img/er321.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-94 {
+  background: url(../img/er333.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-95 {
+  background: url(../img/er341.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-96 {
+  background: url(../img/er343.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-97 {
+  background: url(../img/er318.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-98 {
+  background: url(../img/er319.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-99 {
+  background: url(../img/er14.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-100 {
+  background: url(../img/er27.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-101 {
+  background: url(../img/er203.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-102 {
+  background: url(../img/er270.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-103 {
+  background: url(../img/er300.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-104 {
+  background: url(../img/er315.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-105 {
+  background: url(../img/e150.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Chicago*/
+.carousel-item-106 {
+  background: url(../img/ch222.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-107 {
+  background: url(../img/chi9.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-108 {
+  background: url(../img/chi2.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-109 {
+  background: url(../img/chi4.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-110 {
+  background: url(../img/chicago.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-111 {
+  background: url(../img/chi5.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-112 {
+  background: url(../img/chi15.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-113 {
+  background: url(../img/chi10.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-114 {
+  background: url(../img/chi3.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-115 {
+  background: url(../img/chi1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-116 {
+  background: url(../img/chi0.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Boston*/
+.carousel-item-118 {
+  background: url(../img/bos1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-119 {
+  background: url(../img/bos7.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-120 {
+  background: url(../img/bos2.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-121 {
+  background: url(../img/bos6.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-122 {
+  background: url(../img/bos9.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-123 {
+  background: url(../img/bos13.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-124 {
+  background: url(../img/bos4.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-125 {
+  background: url(../img/bos11.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-126 {
+  background: url(../img/bos16.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*DC*/
+.carousel-item-117 {
+  background: url(../img/DCfirst.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-127 {
+  background: url(../img/dc1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-128 {
+  background: url(../img/dc6.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-129 {
+  background: url(../img/dc3.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-130 {
+  background: url(../img/dc2.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-131 {
+  background: url(../img/dc5.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-132 {
+  background: url(../img/DC.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-133 {
+  background: url(../img/dclast.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*DEtroit*/
+.carousel-item-134 {
+  background: url(../img/sd4.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-135 {
+  background: url(../img/detroit22.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-136 {
+  background: url(../img/detroit4.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-137 {
+  background: url(../img/sd2.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-138 {
+  background: url(../img/detroit2.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-139 {
+  background: url(../img/pitt.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-140 {
+  background: url(../img/mid.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-141 {
+  background: url(../img/sd5.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-142 {
+  background: url(../img/balt1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-143 {
+  background: url(../img/SD.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-143 {
+  background: url(../img/SD1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-140 {
+  background: url(../img/mid.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-141 {
+  background: url(../img/sd5.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-142 {
+  background: url(../img/balt1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-143 {
+  background: url(../img/SD1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-145 {
+  background: url(../img/country2.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-146 {
+  background: url(../img/country8.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-147 {
+  background: url(../img/country12.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-148 {
+  background: url(../img/country1.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-149 {
+  background: url(../img/maine.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item-150 {
+  background: url(../img/country5.jpg) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
